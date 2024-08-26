@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+html {
+  background: #05071a;
+}
+
+/* Header */
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header p {
+  color: #fff;
+}
+
+header a {
+  color: #2592f2;
+  text-decoration: none;
+}
+
+/* Main */
+main {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -68px;
+}
+
+main div:first-child {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Change Text */
+#myText {
+  color: #2592f2;
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 40px;
+  border-radius: 7px;
+  border: none;
+  background: #2592f2;
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+button:hover {
+  background: rgb(37, 146, 242, 0.9);
+}
+
+/* TodoList */
+
+main div:last-child {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 600px;
+}
+
+main div:last-child p {
+  color: #fff;
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+li {
+  color: #9ea3bf;
+  list-style-type: none;
+  border: 0.05px solid rgba(158, 163, 191, 0.1);
+  background-image: radial-gradient(ellipse at center, #05071a, #07091e);
+  border-radius: 7px;
+  padding: 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+li:hover {
+  color: #2592f2;
+}
+
+li::first-letter {
+  text-transform: capitalize;
+}
