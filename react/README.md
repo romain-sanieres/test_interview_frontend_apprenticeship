@@ -1,21 +1,8 @@
-# React Tasks
+# React + Vite
 
-Complete the following React tasks. You can use Create React App or a similar tool to set up your React project.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Task 1: Functional Component
+Currently, two official plugins are available:
 
-* Create a functional component named `Greeting` that accepts a `name` prop.
-* The component should render an `<h1>` element with the text "Hello, [name]!".
-
-## Task 2: State Management
-
-* Create a component named `Counter` that displays a count value.
-* Include two buttons: one to increment the count and one to decrement it.
-* Use the `useState` hook to manage the count state.
-
-## Task 3: List Rendering
-
-* Given an array of names:
-
-   ```javascript
-   const names = ['Alice', 'Bob', 'Charlie', 'David'];
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
