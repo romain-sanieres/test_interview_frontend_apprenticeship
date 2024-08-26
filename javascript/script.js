@@ -14,4 +14,9 @@ function getEvenNumbers(numbers) {
 document.addEventListener("DOMContentLoaded", function () {
   // Call the functions
   getEvenNumbers(numbers);
+
+   // Add event listener for the button
+   document.getElementById("changeText").addEventListener("click", function () {
+    document.getElementById("myText").textContent = "Hello, Check!";
+  });
 });
